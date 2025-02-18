@@ -16,7 +16,12 @@
 
 class BasicStepper : public AccelStepper
 {
-  public:
+    // Default constructor (uses AccelStepper defaults)
+    BasicStepper() : AccelStepper(AccelStepper::FULL4WIRE, 2, 3, 4, 5, true)
+    {
+    }
+
+    // Constructor matching AccelStepper's standard constructor
     BasicStepper(uint8_t interface, uint8_t pin1, uint8_t pin2, uint8_t pin3 = 0, uint8_t pin4 = 0, bool enable = true)
         : AccelStepper(interface, pin1, pin2, pin3, pin4, enable)
     {
