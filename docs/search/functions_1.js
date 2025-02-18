@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]]
+  ['basicstepper_0',['BasicStepper',['../class_basic_stepper.html#af33e385bf864ededd1d1c799f36b85d5',1,'BasicStepper']]]
 ];

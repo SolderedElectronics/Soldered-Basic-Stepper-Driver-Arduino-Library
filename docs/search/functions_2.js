@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['initializenative_0',['initializeNative',['../class_sensor.html#adb537c76173019fddf84b2d89e6c6559',1,'Sensor::initializeNative()'],['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC::initializeNative()']]]
+  ['computenewspeed_0',['computeNewSpeed',['../class_accel_stepper.html#aab5944f43f869675958939c421bd9a01',1,'AccelStepper']]],
+  ['currentposition_1',['currentPosition',['../class_accel_stepper.html#a5dce13ab2a1b02b8f443318886bf6fc5',1,'AccelStepper']]]
 ];

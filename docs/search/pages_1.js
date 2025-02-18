@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['library_0',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]]
+  ['basic_20stepper_20driver_20arduino_20library_0',['Basic Stepper Driver Arduino library',['../index.html',1,'']]]
 ];

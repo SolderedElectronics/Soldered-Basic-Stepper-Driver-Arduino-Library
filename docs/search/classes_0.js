@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_easy_c.html',1,'']]]
+  ['accelstepper_0',['AccelStepper',['../class_accel_stepper.html',1,'']]]
 ];
