@@ -115,6 +115,8 @@ $(function(){initNavTree('class_basic_stepper.html',''); initResizable(true); })
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af33e385bf864ededd1d1c799f36b85d5" id="r_af33e385bf864ededd1d1c799f36b85d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af33e385bf864ededd1d1c799f36b85d5">BasicStepper</a> (uint8_t interface, uint8_t pin1, uint8_t pin2, uint8_t pin3=0, uint8_t pin4=0, bool enable=true)</td></tr>
 <tr class="separator:af33e385bf864ededd1d1c799f36b85d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb7170151aaa1bb87908393a7143bf8" id="r_a0fb7170151aaa1bb87908393a7143bf8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fb7170151aaa1bb87908393a7143bf8">BasicStepper</a> (void(*forward)(), void(*backward)())</td></tr>
+<tr class="separator:a0fb7170151aaa1bb87908393a7143bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_accel_stepper"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_accel_stepper')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_accel_stepper.html">AccelStepper</a></td></tr>
 <tr class="memitem:a3bc75bd6571b98a6177838ca81ac39ab inherit pub_methods_class_accel_stepper" id="r_a3bc75bd6571b98a6177838ca81ac39ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_accel_stepper.html#a3bc75bd6571b98a6177838ca81ac39ab">AccelStepper</a> (uint8_t interface=<a class="el" href="class_accel_stepper.html#a73bdecf1273d98d8c5fbcb764cabeea5adedd394a375190a3df8d4519c0d4dc2f">AccelStepper::FULL4WIRE</a>, uint8_t pin1=2, uint8_t pin2=3, uint8_t pin3=4, uint8_t pin4=5, bool enable=true)</td></tr>
 <tr class="separator:a3bc75bd6571b98a6177838ca81ac39ab inherit pub_methods_class_accel_stepper"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,7 +231,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af33e385bf864ededd1d1c799f36b85d5" name="af33e385bf864ededd1d1c799f36b85d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af33e385bf864ededd1d1c799f36b85d5">&#9670;&#160;</a></span>BasicStepper()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af33e385bf864ededd1d1c799f36b85d5">&#9670;&#160;</a></span>BasicStepper() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,6 +279,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a0fb7170151aaa1bb87908393a7143bf8" name="a0fb7170151aaa1bb87908393a7143bf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fb7170151aaa1bb87908393a7143bf8">&#9670;&#160;</a></span>BasicStepper() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BasicStepper::BasicStepper </td>
+          <td>(</td>
+          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>forward&#160;</em></span>)(), </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>backward&#160;</em></span>)()&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="_basic-_stepper-_driver-_s_o_l_d_e_r_e_d_8h_source.html">Basic-Stepper-Driver-SOLDERED.h</a></li>
 </ul>
@@ -288,7 +319,7 @@ Additional Inherited Members</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_basic_stepper.html">BasicStepper</a></li>
         <li class="footer">
-            Generated on Tue Feb 18 2025 21:05:07 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Tue Feb 18 2025 21:14:00 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.13.2.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

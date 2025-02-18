@@ -105,27 +105,36 @@ $(function(){initNavTree('_basic-_stepper-_driver-_s_o_l_d_e_r_e_d_8h_source.htm
 <div class="contents">
 <a href="_basic-_stepper-_driver-_s_o_l_d_e_r_e_d_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor"> #ifndef __STEPPER_DRIVER__</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor"> #define __STEPPER_DRIVER__</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef __STEPPER_DRIVER__</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define __STEPPER_DRIVER__</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor"> #include &quot;Arduino.h&quot;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor"> #include &quot;<a class="code" href="_accel_stepper_8h.html">libs/AccelStepper/src/AccelStepper.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;Arduino.h&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="_accel_stepper_8h.html">libs/AccelStepper/src/AccelStepper.h</a>&quot;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_basic_stepper.html">   17</a></span> <span class="keyword">class </span><a class="code hl_function" href="class_basic_stepper.html#af33e385bf864ededd1d1c799f36b85d5">BasicStepper</a> : <span class="keyword">public</span> <a class="code hl_function" href="class_accel_stepper.html#a3bc75bd6571b98a6177838ca81ac39ab">AccelStepper</a></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_basic_stepper.html">   17</a></span><span class="keyword">class </span><a class="code hl_function" href="class_basic_stepper.html#af33e385bf864ededd1d1c799f36b85d5">BasicStepper</a> : <span class="keyword">public</span> <a class="code hl_function" href="class_accel_stepper.html#a3bc75bd6571b98a6177838ca81ac39ab">AccelStepper</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keyword">public</span>:</div>
 <div class="foldopen" id="foldopen00020" data-start="{" data-end="}">
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_basic_stepper.html#af33e385bf864ededd1d1c799f36b85d5">   20</a></span>     <a class="code hl_function" href="class_basic_stepper.html#af33e385bf864ededd1d1c799f36b85d5">BasicStepper</a>(uint8_t interface, uint8_t pin1, uint8_t pin2, uint8_t pin3 = 0, uint8_t pin4 = 0, <span class="keywordtype">bool</span> enable = <span class="keyword">true</span>)</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>         : <a class="code hl_function" href="class_accel_stepper.html#a3bc75bd6571b98a6177838ca81ac39ab">AccelStepper</a>(interface, pin1, pin2, pin3, pin4, enable) {}</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_basic_stepper.html#af33e385bf864ededd1d1c799f36b85d5">   20</a></span>    <a class="code hl_function" href="class_basic_stepper.html#af33e385bf864ededd1d1c799f36b85d5">BasicStepper</a>(uint8_t interface, uint8_t pin1, uint8_t pin2, uint8_t pin3 = 0, uint8_t pin4 = 0, <span class="keywordtype">bool</span> enable = <span class="keyword">true</span>)</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        : <a class="code hl_function" href="class_accel_stepper.html#a3bc75bd6571b98a6177838ca81ac39ab">AccelStepper</a>(interface, pin1, pin2, pin3, pin4, enable)</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    }</div>
 </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> };</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="comment">// Alternate constructor for function pointer-based stepping (forward/backward function callbacks)</span></div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_basic_stepper.html#a0fb7170151aaa1bb87908393a7143bf8">   26</a></span>    <a class="code hl_function" href="class_basic_stepper.html#a0fb7170151aaa1bb87908393a7143bf8">BasicStepper</a>(<span class="keywordtype">void</span> (*forward)(), <span class="keywordtype">void</span> (*backward)()) : <a class="code hl_function" href="class_accel_stepper.html#a3bc75bd6571b98a6177838ca81ac39ab">AccelStepper</a>(forward, backward)</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
 </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor"> #endif</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
+</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="a_accel_stepper_8h_html"><div class="ttname"><a href="_accel_stepper_8h.html">AccelStepper.h</a></div></div>
 <div class="ttc" id="aclass_accel_stepper_html_a3bc75bd6571b98a6177838ca81ac39ab"><div class="ttname"><a href="class_accel_stepper.html#a3bc75bd6571b98a6177838ca81ac39ab">AccelStepper::AccelStepper</a></div><div class="ttdeci">AccelStepper(uint8_t interface=AccelStepper::FULL4WIRE, uint8_t pin1=2, uint8_t pin2=3, uint8_t pin3=4, uint8_t pin4=5, bool enable=true)</div><div class="ttdef"><b>Definition</b> AccelStepper.cpp:192</div></div>
+<div class="ttc" id="aclass_basic_stepper_html_a0fb7170151aaa1bb87908393a7143bf8"><div class="ttname"><a href="class_basic_stepper.html#a0fb7170151aaa1bb87908393a7143bf8">BasicStepper::BasicStepper</a></div><div class="ttdeci">BasicStepper(void(*forward)(), void(*backward)())</div><div class="ttdef"><b>Definition</b> Basic-Stepper-Driver-SOLDERED.h:26</div></div>
 <div class="ttc" id="aclass_basic_stepper_html_af33e385bf864ededd1d1c799f36b85d5"><div class="ttname"><a href="class_basic_stepper.html#af33e385bf864ededd1d1c799f36b85d5">BasicStepper::BasicStepper</a></div><div class="ttdeci">BasicStepper(uint8_t interface, uint8_t pin1, uint8_t pin2, uint8_t pin3=0, uint8_t pin4=0, bool enable=true)</div><div class="ttdef"><b>Definition</b> Basic-Stepper-Driver-SOLDERED.h:20</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -135,7 +144,7 @@ $(function(){initNavTree('_basic-_stepper-_driver-_s_o_l_d_e_r_e_d_8h_source.htm
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="_basic-_stepper-_driver-_s_o_l_d_e_r_e_d_8h.html">Basic-Stepper-Driver-SOLDERED.h</a></li>
         <li class="footer">
-            Generated on Tue Feb 18 2025 21:05:07 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Tue Feb 18 2025 21:14:00 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.13.2.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

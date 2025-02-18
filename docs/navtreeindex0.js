@@ -98,6 +98,7 @@ var NAVTREEINDEX0 =
 "class_accel_stepper.html#af8abc9ede47286fa33b518e0bf297c6a":[1,0,0,38],
 "class_accel_stepper.html#afa3061ce813303a8f2fa206ee8d012bd":[1,0,0,3],
 "class_basic_stepper.html":[1,0,1],
+"class_basic_stepper.html#a0fb7170151aaa1bb87908393a7143bf8":[1,0,1,1],
 "class_basic_stepper.html#af33e385bf864ededd1d1c799f36b85d5":[1,0,1,0],
 "class_multi_stepper.html":[1,0,2],
 "class_multi_stepper.html#a14c0c1c0f55e5bbdc4971730e32304c2":[1,0,2,0],
