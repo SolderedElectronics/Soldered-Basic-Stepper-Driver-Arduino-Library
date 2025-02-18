@@ -16,6 +16,7 @@
 
 class BasicStepper : public AccelStepper
 {
+  public:
     // Default constructor (uses AccelStepper defaults)
     BasicStepper() : AccelStepper(AccelStepper::FULL4WIRE, 2, 3, 4, 5, true)
     {
